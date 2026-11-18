@@ -1,0 +1,66 @@
+
+
+body {
+    background-color: #f4f6f9;
+    font-family: Arial, sans-serif;
+}
+
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+
+h2 {
+    color: #333;
+    font-weight: bold;
+}
+
+
+.card {
+    border: none;
+    border-radius: 10px;
+}
+
+.card-header {
+    font-weight: bold;
+}
+
+
+.card img {
+    width: 100px;
+    height: 100px;
+}
+
+
+.form-control,
+.form-select {
+    padding: 10px;
+}
+
+
+.btn {
+    margin-top: 5px;
+}
+
+
+footer {
+    margin-top: 30px;
+}
+
+@media (max-width: 768px) {
+
+    h2 {
+        font-size: 24px;
+    }
+
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .card {
+        margin-bottom: 10px;
+    }
+
+}
